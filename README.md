@@ -16,7 +16,10 @@ You are responsible for devising a technical solution and implementing these cha
 Deploy the archive into a new repository on GitHub and submit your changes as a pull request. Once ready, provide the link to the pull request. The goal of the task is not only to check the candidate’s hard skills but also to prove the ability of ownership of assigned work and check dedication to the team’s result
 
 ### Requirements
-- Node.js 10+
+- ~~Node.js 10+~~
+- Unfortunately I was not able to make it work at node 10
+- Earliest version where app is working fine - 14, but tests do not
+- Both app and tests are working on 18 version
 
 ### Installing application
 `npm install --force`

@@ -83,7 +83,8 @@ export class Application {
 
 	}
 
-	public listen(...args){
+	public listen(...args: any[]): void {
+		// @ts-ignore
 		this.expressApp.listen(...args)
 	}
 
