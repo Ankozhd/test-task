@@ -1,6 +1,6 @@
-import { IDeveloper } from '../types'
+import { IDeveloper, IContract } from '../types'
 
-export const contracts = [
+export const contracts: IContract[] = [
 	{ id: 1, developerId: '65de3467255f31cb84bd071d', status: 'pending', amount: 5000 },
 	{ id: 2, developerId: '65de346c255f31cb84bd10e9', status: 'completed', amount: 12000 },
 	{ id: 3, developerId: '65de346c255f31cb84bd10e9', status: 'ongoing', amount: 200 },
